@@ -1,7 +1,0 @@
-0.6
-2019.1
-May 24 2019
-14:51:52
-/home/rur1k/Vpro/point_arithmetic/point_arithmetic.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-/home/rur1k/Vpro/point_arithmetic/src/fixedPointArithmetic/modules/adder_fixedPoint.sv,1732449358,systemVerilog,,/home/rur1k/Vpro/point_arithmetic/src/fixedPointArithmetic/tests/tb_fixedPointAddition.sv,,adder_fixedPoint,,,,,,,,
-/home/rur1k/Vpro/point_arithmetic/src/fixedPointArithmetic/tests/tb_fixedPointAddition.sv,1732449530,systemVerilog,,,,tb_fixedPointAddition,,,,,,,,
