@@ -11,11 +11,6 @@ module mult_fixedPoint #(
   
   input [n1+m1-1:0] a;
   input [n2+m2-1:0] b;
-  logic maxm,minm;
-  
-  
-  localparam switch = (m1 > m2);
-
   output [n1+n2+m2+m1-1:0] out;
   
   assign out = a*b;
