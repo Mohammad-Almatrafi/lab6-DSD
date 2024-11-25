@@ -20,7 +20,7 @@ module FIR_filter #(
   //   localparam n = 4;
   logic [(2*m+2*n)-1:0] mult[4:0];
   logic [(2*m+2*n)-1:0] sig[3:0];
-  logic [m+n:0] h[4:0];
+  logic [m+n-1:0] h[4:0];
   assign h[0] = 10'h003;
   assign h[1] = 10'h001;
   assign h[2] = 10'h080;
@@ -66,7 +66,6 @@ module FIR_filter #(
       .d(xn[2]),
       .q(xn[3])
   );
-
 
   mult_fixedPoint #(
       .n1(n),
